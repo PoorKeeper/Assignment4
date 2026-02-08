@@ -15,7 +15,8 @@ Features
 . Provide immediate feedback and explanation after each answer.
 . No backend required - fully static using HTML, CSS, and JavaScript.
 . Demonstrates incremental development and collaborative workflows.
-
+ test for conflict
+ 
 DevOps Topics Covered
 The question bank includes topics such as:
 . The DevOps Culture
