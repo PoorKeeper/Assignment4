@@ -1,0 +1,262 @@
+[
+    {
+      "id": "Q1",
+      "topic": "The DevOps Culture",
+      "question": "Which of the following best describes the 'CAMS' model in DevOps?",
+      "options": [
+        "Coding, Automation, Monitoring, Scripting",
+        "Culture, Automation, Measurement, Sharing",
+        "Cloud, Agile, Microservices, Security",
+        "Continuous, Adaptive, Managed, Scalable"
+      ],
+      "answerIndex": 1,
+      "explanation": "The CAMS model (Culture, Automation, Measurement, Sharing) represents the core values of the DevOps movement."
+    },
+    {
+      "id": "Q2",
+      "topic": "The DevOps Culture",
+      "question": "What is the primary purpose of a 'Blameless Post-mortem'?",
+      "options": [
+        "To identify the person responsible for a failure",
+        "To document why a project was over budget",
+        "To understand systemic failures without pointing fingers",
+        "To punish developers for shipping bugs"
+      ],
+      "answerIndex": 2,
+      "explanation": "Blameless post-mortems focus on improving systems and processes rather than blaming individuals."
+    },
+    {
+      "id": "Q3",
+      "topic": "The DevOps Culture",
+      "question": "DevOps is primarily meant to bridge the gap between which two teams?",
+      "options": [
+        "Marketing and Sales",
+        "Human Resources and Finance",
+        "Software Development and IT Operations",
+        "UI Design and Backend Development"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps aims to break down silos between Development (Dev) and Operations (Ops)."
+    },
+    {
+      "id": "Q4",
+      "topic": "The DevOps Culture",
+      "question": "What does the term 'Shift Left' refer to in DevOps?",
+      "options": [
+        "Moving testing and security earlier in the development lifecycle",
+        "Moving all tasks to the left side of the Kanban board",
+        "Increasing the number of developers on a project",
+        "Delaying deployment to the last possible moment"
+      ],
+      "answerIndex": 0,
+      "explanation": "Shifting left means integrating quality and security checks early in the process."
+    },
+    {
+      "id": "Q5",
+      "topic": "Version Control Systems",
+      "question": "In Git, what is the purpose of the 'Staging Area'?",
+      "options": [
+        "To store code before it is pushed to the cloud",
+        "To prepare a snapshot of changes before committing",
+        "To host the production version of the website",
+        "To automatically run unit tests"
+      ],
+      "answerIndex": 1,
+      "explanation": "The staging area allows developers to select specific changes they want to include in the next commit."
+    },
+    {
+      "id": "Q6",
+      "topic": "Version Control Systems",
+      "question": "Which command is used to combine two branches in Git?",
+      "options": [
+        "git combine",
+        "git join",
+        "git merge",
+        "git push"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'git merge' command integrates changes from one branch into another."
+    },
+    {
+      "id": "Q7",
+      "topic": "Version Control Systems",
+      "question": "What is a 'Pull Request' (or Merge Request)?",
+      "options": [
+        "A request to delete a repository",
+        "A way to download code from a server",
+        "A proposed set of changes for review before merging",
+        "A bug report submitted by a user"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pull requests facilitate code review and collaboration before code is finalized."
+    },
+    {
+      "id": "Q8",
+      "topic": "Version Control Systems",
+      "question": "What is the main difference between Git and SVN?",
+      "options": [
+        "Git is centralized, SVN is distributed",
+        "Git is distributed, SVN is centralized",
+        "SVN is faster than Git",
+        "Git does not support branching"
+      ],
+      "answerIndex": 1,
+      "explanation": "Git is a Distributed Version Control System (DVCS), meaning every developer has a full copy of the history."
+    },
+    {
+      "id": "Q9",
+      "topic": "Continuous Integration",
+      "question": "What is the primary goal of Continuous Integration (CI)?",
+      "options": [
+        "To deploy code to customers every hour",
+        "To frequently integrate code changes into a shared repository",
+        "To eliminate the need for documentation",
+        "To replace manual coding with AI"
+      ],
+      "answerIndex": 1,
+      "explanation": "CI ensures that code is integrated and tested frequently to detect errors quickly."
+    },
+    {
+      "id": "Q10",
+      "topic": "Continuous Integration",
+      "question": "Which of these is a popular CI/CD tool?",
+      "options": [
+        "Photoshop",
+        "Jenkins",
+        "Excel",
+        "Slack"
+      ],
+      "answerIndex": 1,
+      "explanation": "Jenkins is an open-source automation server commonly used for CI pipelines."
+    },
+    {
+      "id": "Q11",
+      "topic": "Continuous Integration",
+      "question": "What is a 'Build' in the context of CI?",
+      "options": [
+        "Designing the UI layout",
+        "The process of converting source code into an executable artifact",
+        "Hiring new developers for the team",
+        "Purchasing new server hardware"
+      ],
+      "answerIndex": 1,
+      "explanation": "The build process compiles code and runs tests to ensure the application is functional."
+    },
+    {
+      "id": "Q12",
+      "topic": "Continuous Integration",
+      "question": "Why are automated tests critical in a CI pipeline?",
+      "options": [
+        "They make the build take longer",
+        "They prove that developers are working hard",
+        "They provide immediate feedback on whether new code broke existing features",
+        "They remove the need for any developers"
+      ],
+      "answerIndex": 2,
+      "explanation": "Automated tests allow for rapid verification of code quality during integration."
+    },
+    {
+      "id": "Q13",
+      "topic": "Continuous Deployment",
+      "question": "What distinguishes Continuous Deployment from Continuous Delivery?",
+      "options": [
+        "Continuous Delivery requires manual approval for production release",
+        "Continuous Deployment is only for mobile apps",
+        "Continuous Delivery does not include automated testing",
+        "Continuous Deployment requires manual intervention"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Continuous Delivery, the release to production is manual; in Continuous Deployment, it is fully automated."
+    },
+    {
+      "id": "Q14",
+      "topic": "Continuous Deployment",
+      "question": "What is a 'Canary Deployment'?",
+      "options": [
+        "Deploying the app to a bird sanctuary",
+        "Releasing code to a small subset of users before a full rollout",
+        "Deleting the old version of the app before installing the new one",
+        "Testing the app in a local environment only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Canary deployments reduce risk by testing new features on a small percentage of traffic."
+    },
+    {
+      "id": "Q15",
+      "topic": "Continuous Deployment",
+      "question": "What is 'Blue-Green Deployment'?",
+      "options": [
+        "A way to color-code your servers",
+        "Running two identical production environments to ensure zero downtime",
+        "Deploying only on sunny days",
+        "A strategy for managing database backups"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blue-Green deployment allows you to switch traffic between two versions to minimize downtime and risk."
+    },
+    {
+      "id": "Q16",
+      "topic": "Continuous Deployment",
+      "question": "What is the benefit of a 'Rollback'?",
+      "options": [
+        "Deleting the source code repository",
+        "Quickly reverting to a previous stable version after a failed deployment",
+        "Updating the software version number",
+        "Restarting the developer's computer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rollbacks ensure service stability by reverting bad deployments immediately."
+    },
+    {
+      "id": "Q17",
+      "topic": "Infrastructure as Code",
+      "question": "What does Infrastructure as Code (IaC) allow teams to do?",
+      "options": [
+        "Manage server hardware through a GUI",
+        "Manage and provision infrastructure using configuration files",
+        "Write code only for the frontend",
+        "Eliminate the need for cloud providers"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC allows infrastructure to be treated like software, enabling versioning and automation."
+    },
+    {
+      "id": "Q18",
+      "topic": "Infrastructure as Code",
+      "question": "Which of the following is an example of an IaC tool?",
+      "options": [
+        "Terraform",
+        "Microsoft Word",
+        "Spotify",
+        "Zoom"
+      ],
+      "answerIndex": 0,
+      "explanation": "Terraform is a widely used tool for building, changing, and versioning infrastructure safely."
+    },
+    {
+      "id": "Q19",
+      "topic": "Infrastructure as Code",
+      "question": "What is the concept of 'Idempotency' in IaC?",
+      "options": [
+        "The code can only be run once",
+        "Running the same code multiple times results in the same state",
+        "The infrastructure changes randomly every time",
+        "The code requires manual intervention every time"
+      ],
+      "answerIndex": 1,
+      "explanation": "Idempotency ensures that applying the configuration multiple times doesn't change the result after the first successful application."
+    },
+    {
+      "id": "Q20",
+      "topic": "Infrastructure as Code",
+      "question": "What is the difference between 'Mutable' and 'Immutable' infrastructure?",
+      "options": [
+        "Mutable can be changed after creation; Immutable is replaced entirely",
+        "Immutable can be changed; Mutable cannot",
+        "Mutable is for cloud; Immutable is for physical servers",
+        "There is no difference"
+      ],
+      "answerIndex": 0,
+      "explanation": "Immutable infrastructure involves replacing components rather than updating them in place."
+    }
+  ]
